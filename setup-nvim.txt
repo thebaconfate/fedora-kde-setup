@@ -6,4 +6,17 @@ using Mason.
 
 # Requires node
 
+# confirmed to not be installed automatically
 npm install -g prettier @fsouza/prettierd prettier-plugin-astro
+
+# below are the unconfirmed but suspected missing:
+npm install -g typescript typescript-language-server
+
+# Requires Raco (install DrRacket and add raco to PATH
+# raco pkg install racket-langserver
+
+# html
+npm i -g vscode-langservers-extracted
+
+# dockerls
+npm install -g dockerfile-language-server-nodejs
