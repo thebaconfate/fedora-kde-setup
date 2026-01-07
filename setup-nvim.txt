@@ -1,0 +1,9 @@
+# Setup Nvim
+# Nvim requires some dependencies that aren't shipped with the config or
+application automatically.
+# These are usually formatters or lsps that aren't downloaded automatically
+using Mason.
+
+# Requires node
+
+npm install -g prettier @fsouza/prettierd prettier-plugin-astro
